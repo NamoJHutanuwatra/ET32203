@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hub</title>
+	<link rel="stylesheet" href="hub.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<script src="hub.js"></script>
+</head>
+
+<body>
+
+	<!-- Navigation Bar -->
+	<nav class="topnav">
+		<div class="topnav-left">
+			<!-- Social Links -->
+			<a href="https://discordapp.com/users/691230623464947722" class="social-link" target="_blank"
+				aria-label="Discord">
+				<i class="fab fa-discord"></i>
+			</a>
+			<a href="https://www.instagram.com/ifillthedaywiththewayyouwalk/" class="social-link" target="_blank"
+				aria-label="Instagram">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a href="https://open.spotify.com/user/31sumzz6rvox7xa2636ltp3t3lga?si=b7674c4d0aec4c04" class="social-link"
+				target="_blank" aria-label="Spotify">
+				<i class="fab fa-spotify"></i>
+			</a>
+			<a href="https://steamcommunity.com/profiles/76561199047993352/" class="social-link" target="_blank"
+				aria-label="Steam">
+				<i class="fab fa-steam"></i>
+			</a>
+		</div>
+		<div class="topnav-right">
+			<a href="login.html" class="social-link" aria-label="Steam">
+				<i class="fas fa-home"></i>
+			</a>
+		</div>
+	</nav>
+	<!-- About Me Section -->
+	<section id="everything-necessary">
+		<h2>Useful links</h2>
+		<div class="links">
+			<a href="https://drive.google.com/drive/home" target="_blank"><img src="picture/google-drive.png"
+					alt="G-drive"></a>
+			<a href="https://onedrive.live.com/" target="_blank"><img src="picture/office.png" alt="onedrive"></a>
+			<a href="https://github.com/" target="_blank"><img src="picture/github-mark-white.png" alt="github"></a>
+			<a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img src="picture/gmail.png"
+					alt="G-mail"></a>
+			<a href="https://docs.google.com/spreadsheets" target="_blank"><img src="picture/google-sheets.png"
+					alt="G-sheet"></a>
+		</div>
+		<div class="weather-app">
+			<h2>My Cities's Weather</h2>
+			<select id="locationSelect">
+					<!-- Add city options here -->
+					<option value="London">London</option>
+					<option value="New York">New York</option>
+					<option value="Tokyo">Tokyo</option>
+					<option value="Paris">Paris</option>
+					<option value="Bangkok">Bangkok</option>
+					<option value="Singapore">Singapore</option>
+					<option value="Sydney">Sydney</option>
+					<option value="Melbourne">Melbourne</option>
+					<option value="Bangkok">Bangkok</option>
+					<option value="Zurich">Zurich</option>
+					<option value="Forres">Forres</option>
+					<option value="Edinburgh">Edinburgh</option>
+				</select>
+				<div class="weather-info">
+					<h2 id="location"></h2>
+					<h2 id="temperature"></h2>
+					<h2 id="description"></h2>
+				</div>
+		</div>
+	</section>
+</body>
+</html>
